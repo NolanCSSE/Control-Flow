@@ -47,6 +47,9 @@ if atm == "yes":
             balance = balance + deAmount
             print("Your new balance is: $" + str(balance))
 
+        else:
+            print("Your Current balance is: $" + str(balance))
+
     else:
         print("Sorry",firstName,lastName,"your PIN doesn't match our records")
 
